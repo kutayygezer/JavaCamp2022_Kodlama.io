@@ -12,7 +12,7 @@ namespace YouTubeDemo
         {
             //Ioc Container
             Person person = new Person();
-            person.FirstName = "Kutay";
+            person.FirstName = "Osman";
             person.LastName = "Gezer";
             CustomerManager customerManager = new CustomerManager(new Customer(), new MilitaryCreditManager());
             customerManager.Save();
